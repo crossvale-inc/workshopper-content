@@ -1,4 +1,4 @@
-## Lab: Deploying Java Code
+## Lab: Deploying Java Code (XXX)
 
 ### Application Description
 In this lab, we're going to deploy a backend service, developed in Java
