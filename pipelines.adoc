@@ -298,7 +298,7 @@ Edit the deployment config for the nationalparks application, to uncheck the "Au
 
 [source,role=copypaste]
 ----
-https://{{ROUTER_ADDRESS}}/console/project/{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}/edit/dc/nationalparks
+https://{{CONSOLE_ADDRESS}}/console/project/{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}/edit/dc/nationalparks
 ----
 
 image::disable-automatic-deployment.png[Disable Automatic Deployment]
