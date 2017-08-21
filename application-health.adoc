@@ -50,6 +50,7 @@ then fill them out as follows:
 _Readiness Probe_
 
 * Path: `/ws/healthz/`
+* Port: `8080`
 * Initial Delay: `20`
 * Timeout: `1`
 
@@ -58,6 +59,7 @@ image::pipeline-readiness.png[Readiness Probe]
 _Liveness Probe_
 
 * Path: `/ws/healthz/`
+* Port: `8080`
 * Initial Delay: `120`
 * Timeout: `1`
 
