@@ -163,7 +163,7 @@ Since we have two *Pods* running right now, let's see what happens if we
 "accidentally" kill one. Run the `oc get pods` command again, and choose a *Pod*
 name. Then, do the following:
 
-[source]
+[source,role=copypaste]
 ----
 $ oc delete pod parksmap-1-hx0kv && oc get pods
 
