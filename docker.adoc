@@ -50,7 +50,7 @@ Hit the blue "Create" button at the bottom of the screen and then click the
 you now see on the overview page.
 
 WINNING! These few steps are the only ones you need to run to get a "vanilla"
-Docker-formatted image deployed on OpenShift. This should work with any
+Docker-formatted image deployed (and running) on OpenShift. This should work with any
 Docker-formatted image that follows best practices, such as defining an EXPOSE
 port, not needing to run specifically as the *root user* or other user name, and
 a single non-exiting CMD to execute on start.
