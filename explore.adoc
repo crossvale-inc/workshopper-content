@@ -118,7 +118,7 @@ Now using project "{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}" on server "https://{
 
 OpenShift ships with a web-based console that will allow users to
 perform various tasks via a browser.  To get a feel for how the web console
-works, open your browser and go to the following URL:
+works, open your browser and go to the following URL (since we are using certificates signed by an unknown authority, you may need to over-ride the warning presented by your browser):
 
 *link:https://{{CONSOLE_ADDRESS}}[]*
 
