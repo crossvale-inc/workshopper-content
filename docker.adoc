@@ -58,10 +58,7 @@ a single non-exiting CMD to execute on start.
 ### Background: Containers and Pods
 
 Before we start digging in we need to understand how containers and *Pods* are
-related. Given the morning sessions where we discussed the OpenShift platform
-and how it uses containers and *Pods*, we will not be covering the background on
-these technologies in this lab.  Instead, we will dive right in and start using
-them.
+related.
 
 In OpenShift, the smallest deployable unit is a *Pod*. A *Pod* is a group of one or
 more Docker containers deployed together and guaranteed to be on the same host.
