@@ -123,7 +123,7 @@ $ export PATH=$PATH:~/OpenShift
 
 #### Verify
 At this point, we should have the oc tool available for use.  Let's test this
-out by printing the version of the oc command:
+out by printing the version of the oc command (by entering the following command into a terminal/cmd window):
 
 [source]
 ----
