@@ -272,7 +272,7 @@ parksmap-1-hx0kv   1/1       Running   0          3h
 
 Now you can view the detailed data for your *Pod* with the following command:
 
-[source]
+[source,role=copypaste]
 ----
 $ oc get pod parksmap-1-hx0kv -o yaml
 ----
