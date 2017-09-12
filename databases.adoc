@@ -203,7 +203,7 @@ stood up a "new" instance.
 Now that we have a database deployed, we can again visit the `nationalparks` web
 service to query for data:
 
-[source]
+[source,role=copypaste]
 ----
 http://nationalparks-{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}.{{ROUTER_ADDRESS}}/ws/data/all
 ----
@@ -221,7 +221,7 @@ application and then deployed the database. Nothing actually loaded anything
 
 The application provides an endpoint to do just that:
 
-[source]
+[source,role=copypaste]
 ----
 http://nationalparks-{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}.{{ROUTER_ADDRESS}}/ws/data/load
 ----
@@ -239,7 +239,7 @@ That's great. Our parks map should finally work!
 NOTE: There's some errors reported with browsers like firefox 54 that don't properly parse the resulting JSON. It's
 a browser problem, and the application is working properly. 
 
-[source]
+[source,role=copypaste]
 ----
 http://parksmap-{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}.{{ROUTER_ADDRESS}}
 ----
@@ -336,7 +336,7 @@ route "nationalparks" labeled
 
 If you check your browser now:
 
-[source]
+[source,role=copypaste]
 ----
 http://parksmap-{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}.{{ROUTER_ADDRESS}}/
 ----
