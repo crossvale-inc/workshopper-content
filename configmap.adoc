@@ -128,7 +128,7 @@ $ oc env dc/nationalparks MONGODB_USER- MONGODB_PASSWORD- MONGODB_DATABASE- MONG
 You have now externalized `nationalparks` configuration. Visit the `nationalparks` web
 service to very the database connection is working correctly.:
 
-[source]
+[source,role=copypaste]
 ----
 http://nationalparks-{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}.{{ROUTER_ADDRESS}}/ws/data/all/
 ----
