@@ -152,7 +152,7 @@ Lastly, the web console will show you an error: _An error occurred getting
 metrics._  We need to accept another self-signed certificate for OpenShift's metrics
 aggregation. If we don't, then the metrics will not display in the OpenShift UI.
 
-Click the link that says *Open metrics URL*, and accept the certificate.
+Click the link that says *Open metrics URL*, and accept the certificate. You will need to refresh the console window to actually see the metrics after accepting the certificate.
 
 {% endif %}
 
