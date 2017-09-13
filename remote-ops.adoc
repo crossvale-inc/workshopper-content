@@ -93,7 +93,7 @@ You can also specify the shell commands to run directly with the *oc rsh* comman
 $ oc rsh parksmap-2-tegp4 whoami
 ----
 
-You would see something like:
+You would see something like (note, your userid may be different from the one shown below):
 
 [source]
 ----
