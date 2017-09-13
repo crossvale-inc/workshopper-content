@@ -84,14 +84,14 @@ understand all of the terminology as we will cover it in detail in later labs.
 
 {% if NO_USER_PROJECT == true %}
 The first thing we want to do is create the *{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}*
-project. You can do this with the following command:
+project (unless you only have access to one project, in which case it will already be selected automatically). You can do this with the following command:
 
 [source,role=copypaste]
 ----
 $ oc new-project {{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}
 ----
 
-You will see the following confirmation message:
+You will see the following confirmation message (unless the project has already been selected automatically):
 
 [source]
 ----
