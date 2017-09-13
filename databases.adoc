@@ -298,7 +298,7 @@ link:https://github.com/openshift-roadshow/parksmap-web/blob/{{PARKSMAP_VERSION}
 
 
 Fortunately, the command line provides a convenient way for us to manipulate
-labels. `describe` the `nationalparks` service:
+labels. `describe` the `nationalparks` route:
 
 [source]
 ----
