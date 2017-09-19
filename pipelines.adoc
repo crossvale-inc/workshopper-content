@@ -315,11 +315,9 @@ in the build configuration, or supplied in a Git repository and referenced by th
 build configuration.
 
 In order to create the pipeline, click on the *Add to project* button,
-find the `dev-live-pipeline` template, and click on it. Specify the project name
-and click on *Create*
-
-NOTE: Specify the name of the project (e.g. `{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}`) where
-`nationalparks` *Dev* and *Live* containers are deployed.
+find the `dev-live-pipeline` template, and click on it. Specify the "* Project name" (i.e. the name of the project where your
+`nationalparks` *Dev* and *Live* containers are deployed, in the format `{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}`)
+and click on *Create*.
 
 image::pipeline-template.png[Pipeline Template]
 
