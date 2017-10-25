@@ -136,5 +136,7 @@ You should see the following (or something similar):
 {{OC_VERSION}}
 ----
 
-If you get an error message, you have not updated your path correctly.  If you
+At this point, oc version will return an ip error because you have not logged in yet. Later, when you oc login and do the version command again it will not give this error.
+
+If you get a different error message, you may not have updated your path correctly.  If you
 need help, raise your hand and the instructor will assist.
