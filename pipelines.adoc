@@ -305,6 +305,8 @@ image::disable-automatic-deployment.png[Disable Automatic Deployment]
 
 {% endif %}
 
+Click "Save" to save your change.
+
 ### Exercise: Create OpenShift Pipeline
 
 The Pipeline is in fact a type of build that allows developers to define a Jenkins
