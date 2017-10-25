@@ -96,6 +96,8 @@ retrieve information and invoke action in OpenShift:
 $ oc policy add-role-to-user edit -z jenkins
 ----
 
+If this fails, saying the rolebinding "jenkins_edit" already exists, you can ignore that error.
+
 ### Exercise: Remove Dev from `parksmap`
 Since we are going to be replacing the current `nationalparks` application with
 a *Live* version, we should remove the *Dev* version from the `parksmap` by
