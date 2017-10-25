@@ -58,6 +58,8 @@ $ ls /
 anaconda-post.log  bin  dev  etc  home  lib  lib64  lost+found  media  mnt  opt  parksmap.jar  proc  root  run  sbin  srv  sys  tmp  usr  var
 ----
 
+Exit your remote shell before continuing.
+
 #### Exercise: Execute a Command in a Container
 
 In addition to remote shell, it is also possible to run a command remotely in an
