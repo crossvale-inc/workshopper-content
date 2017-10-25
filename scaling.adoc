@@ -144,7 +144,7 @@ Your IP addresses will likely be different, as each pod receives a unique IP
 within the OpenShift environment. The endpoint list is a quick way to see how
 many pods are behind a service.
 
-You can also see that both *Pods* are running using the web console:
+You can also see that both *Pods* are running using the web console (you may need to click the Overview icon on the top left to get back to the overview page):
 
 image::parksmap-scaled.png[Scaling]
 
