@@ -113,7 +113,7 @@ image::new-national-parks-1.png[Runtimes]
 
 These labs were written against specific points in time for these
 applications. With Git as our version control system (VCS), we are using the
-concept of *Branches/Tags*. Click on *Show advanced options for source, routes, builds, and deployments*. In the *Git Reference* field enter "*{{NATIONALPARKS_VERSION}}*". This will cause the S2I
+concept of *Branches/Tags*. Click on *Show advanced options for source, routes, builds, and deployments* (If you accidentally click the "Try It" link, you will need to update the Git Repository URL again). In the *Git Reference* field enter "*{{NATIONALPARKS_VERSION}}*". This will cause the S2I
 process to grab that specific tag in the code repository.
 
 image::nationalparks-tag.png[Runtimes]
