@@ -99,6 +99,8 @@ After you click `redhat-openjdk18-openshift`, on the next screen you will need
 to enter a name and a Git repository URL. For the name, enter `nationalparks`,
 and for the Git repository URL, enter:
 
+WARNING! This URL is different from the one mentioned previously.
+
 [source,role=copypaste]
 ----
 http://{{GITLAB_URL_PREFIX}}.{{ROUTER_ADDRESS}}/{{GITLAB_USER}}/nationalparks.git
