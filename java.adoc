@@ -99,7 +99,7 @@ image::ocp-runtimes.png[Runtimes]
 
 After you click `redhat-openjdk18-openshift`, on the next screen you will need
 to enter a name and a Git repository URL. For the name, enter `nationalparks`,
-and for the Git repository URL, enter (again, remember to replace the "XX"!):
+and for the Git repository URL, enter (again, remember to replace the "XX" and note this is a different URL to the one above!):
 
 [source,role=copypaste]
 ----
