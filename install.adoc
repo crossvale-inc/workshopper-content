@@ -140,3 +140,5 @@ At this point, oc version will return an ip error because you have not logged in
 
 If you get a different error message, you may not have updated your path correctly.  If you
 need help, raise your hand and the instructor will assist.
+
+WARNING: Openshift Client versions need to match the Openshift Server you're running. In this lab we are using Openshift version 3.6
