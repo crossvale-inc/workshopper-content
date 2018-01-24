@@ -44,6 +44,8 @@ Click *Applications* &rarr; *Deployments* on the left-side bar. Click
 `nationalparks` and then click on the latest deployment in the list. You will see the warning about health checks, with a link to
 click in order to add them. Click *Add health checks* now.
 
+image::pipeline-readiness.png[Readiness Probe]
+
 You will want to click both *Add Readiness Probe* and *Add Liveness Probe* and
 then fill them out as follows:
 
@@ -55,7 +57,6 @@ _Readiness Probe_
 * Initial Delay: `20`
 * Timeout: `1`
 
-image::pipeline-readiness.png[Readiness Probe]
 
 _Liveness Probe_
 
@@ -65,7 +66,6 @@ _Liveness Probe_
 * Initial Delay: `120`
 * Timeout: `1`
 
-image::pipeline-liveness.png[Liveness Probe]
 
 Click *Save* and then click the *Overview* button in the left navigation. You
 will notice that these changes caused a new deployment -- they counted as a

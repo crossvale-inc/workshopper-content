@@ -248,12 +248,6 @@ $ oc set volumes dc/nationalparks-live --add -m /deployments/config --configmap-
 
 {% endif %}
 
-#### Group Services
-Group the *Live* services
-by clicking on the *Group Service* on the right side of *NATIONALPARKS LIVE*
-container and choosing `mongodb-live` from the drop-down list.
-
-image::pipeline-live.png[National Parks Live]
 
 #### Add Route
 If you look at the web console, you will notice that, when you create the
@@ -318,8 +312,7 @@ build type. Pipeline workflows are defined in a Jenkinsfile, either embedded dir
 in the build configuration, or supplied in a Git repository and referenced by the
 build configuration.
 
-In order to create the pipeline, click on the *Add to project* button,
-find the `dev-live-pipeline` template, and click on it. Specify the "* Project name" (i.e. the name of the project where your
+In order to create the pipeline, click on the *Add to project* button, then click the *Browse Catalog*, and search to find the `dev-live-pipeline` template, and click on it. Specify the "* Project name" (i.e. the name of the project where your
 `nationalparks` *Dev* and *Live* containers are deployed, in the format `{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}`)
 and click on *Create*.
 
