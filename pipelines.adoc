@@ -49,14 +49,9 @@ Let's move on to deploy `Jenkins` and create this pipeline on OpenShift.
 
 OpenShift provides a supported Jenkins image which includes a rich set of
 plugins that enable the full pipeline flow. Click on the *Add to project*
-button. Then, scroll down to the *Technologies* section and click on *Continuous
-Integration & Deployment*:
+button, then click the *"CI\CD"* link. Find the `jenkins-ephemeral` template, and click on it:
 
 image::pipeline-technologies.png[CI/CD Technologies]
-
-Find the `jenkins-ephemeral` template, and click on it:
-
-image::pipeline-jenkins-catalog.png[Jenkins Ephemeral]
 
 You can customize the Jenkins properties such as service name, admin password, memory
 allocation, etc through the parameters in the web console. We can leave all of

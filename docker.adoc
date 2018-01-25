@@ -45,7 +45,7 @@ image::parksmap-image-options.png[Explore Project]
 
 {% endif %}
 
-Hit the blue "Create" button at the bottom of the screen and then click the
+Hit the blue "Deploy" button at the bottom of the screen and then click the
 "Continue to overview" link. Take a moment to look at the various messages that
 you now see on the overview page.
 

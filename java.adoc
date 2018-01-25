@@ -89,8 +89,7 @@ can do the same for specifying a source code repository. Since for this lab you
 have your own GitLab repository, let's use it with a simple Java S2I image.
 
 In the OpenShift web console, find your `{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}` project, and then
-click the *"Add to Project"* button. You will see a list of categories of
-runtimes, and other types of components that you can deploy and run on OpenShift.
+click the *"Add to Project"* button, then *"Browse Catalog"*. You will see a list of categories of runtimes, and other types of components that you can deploy and run on OpenShift.
 
 Type _"jdk"_ into the search box, and then select the item titled
 `redhat-openjdk18-openshift`.
