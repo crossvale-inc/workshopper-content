@@ -131,8 +131,7 @@ Password: {{USER_PASSWORD}}
 image::ocp-login.png[OpenShift Login Screen]
 
 After you have authenticated to the web console, you will be presented with a
-list of projects that your user has permission to work with. You will see
-something that looks like the following image:
+list of projects on the right side that your user has permission to work with. You will see something that looks like the following image:
 
 image::explore-webconsole1.png[Web Console]
 
