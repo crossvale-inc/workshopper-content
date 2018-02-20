@@ -1,7 +1,7 @@
 ---
 id: roadshow
 name: Roadshow
-revision: ocp_3_5
+revision: ocp_3_7
 
 content:
   url: https://raw.githubusercontent.com/osevg/workshopper-content/master
