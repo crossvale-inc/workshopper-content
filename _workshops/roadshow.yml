@@ -36,6 +36,10 @@ vars:
   EXPLORE_PROJECT_NAME: "explore"
   DISABLE_NATIONALPARKS_DEPLOYMENT_PIPELINE: true
   MW_NAME: "eap"
+  DOWNLOAD_CLIENT_WINDOWS: https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-windows.zip
+  DOWNLOAD_CLIENT_MAC: https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-mac.zip
+  DOWNLOAD_CLIENT_LIN64: https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-linux-64bit.tar.gz
+  OC_VERSION: "oc v3.7.1+ab0f056\kubernetes v1.7.6+a08f5eeb62"
 
 modules:
   activate:
