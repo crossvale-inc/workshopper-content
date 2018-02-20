@@ -25,7 +25,7 @@ select the "Image Name" option, and copy/paste the following into the box:
 
 [source]
 ----
-docker.io/openshiftroadshow/{{PARKSMAP_IMAGENAME}}:{{PARKSMAP_VERSION}}
+openshiftroadshow/{{PARKSMAP_IMAGENAME}}:{{PARKSMAP_VERSION}}
 ----
 
 Your screen will end up looking something like this:
