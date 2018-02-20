@@ -167,10 +167,10 @@ modules:
           OC_VERSION: oc v1.4.1+3f9807a\nkubernetes v1.4.0+776c994
       ocp_3_5:
         vars:
-          DOWNLOAD_CLIENT_WINDOWS: https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-windows.zip
-          DOWNLOAD_CLIENT_MAC: https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-mac.zip
-          DOWNLOAD_CLIENT_LIN64: https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-linux-64bit.tar.gz
-          OC_VERSION: oc v3.7.1+ab0f056\nkubernetes v1.7.6+a08f5eeb62
+          DOWNLOAD_CLIENT_WINDOWS: https://github.com/openshift/origin/releases/download/v3.6.1/openshift-origin-client-tools-v3.6.1-008f2d5-windows.zip
+          DOWNLOAD_CLIENT_MAC: https://github.com/openshift/origin/releases/download/v3.6.1/openshift-origin-client-tools-v3.6.1-008f2d5-mac.zip
+          DOWNLOAD_CLIENT_LIN64: https://github.com/openshift/origin/releases/download/v3.6.1/openshift-origin-client-tools-v3.6.1-008f2d5-linux-64bit.tar.gz
+          OC_VERSION: oc v3.6.1+008f2d5\nkubernetes v1.6.1+5115d708d7
           DOWNLOAD_CLIENT_WINDOWS_OLD: https://github.com/openshift/origin/releases/download/v1.5.1/openshift-origin-client-tools-v1.5.1-7b451fc-windows.zip
           DOWNLOAD_CLIENT_MAC_OLD: https://github.com/openshift/origin/releases/download/v1.5.1/openshift-origin-client-tools-v1.5.1-7b451fc-mac.zip
           DOWNLOAD_CLIENT_LIN32_OLD: https://github.com/openshift/origin/releases/download/v1.5.1/openshift-origin-client-tools-v1.5.1-7b451fc-linux-32bit.tar.gz
