@@ -21,7 +21,7 @@ operating system as linked below:
 
 - {{DOWNLOAD_CLIENT_WINDOWS}}[Microsoft Windows]
 - {{DOWNLOAD_CLIENT_MAC}}[Apple OS X]
-- {{https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-linux-64bit.tar.gz}}[Linux 64]
+- {https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-linux-64bit.tar.gz}[Linux 64]
 
 Once the file has been downloaded, you will need to extract the contents as it
 is a compressed archive.  When you uncompress the download, it will create a folder starting with "openshift-origin-client-tools-v3.9.0-alpha.3-78ddc10". I would suggest moving the contents of that folder (including the oc executable) to the relevant directory below:
