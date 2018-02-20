@@ -16,7 +16,7 @@ vars:
   DOWNLOAD_CLIENT_WINDOWS: https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-windows.zip
   DOWNLOAD_CLIENT_MAC: https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-mac.zip
   DOWNLOAD_CLIENT_LIN64: https://github.com/openshift/origin/releases/download/v3.7.1/openshift-origin-client-tools-v3.7.1-ab0f056-linux-64bit.tar.gz
-  OC_VERSION: "oc v1.5.0+031cbe4\nkubernetes v1.5.2+43a9be4"
+  OC_VERSION: "oc v3.7.1+ab0f056\nkubernetes v1.7.6+a08f5eeb62"
   CONSOLE_ADDRESS: console.westford.pixy.io:8443
   ROUTER_ADDRESS: apps.westford.pixy.io
   GIT_HOST: github
