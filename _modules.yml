@@ -41,16 +41,16 @@ config:
       value: etherpad-workshop-infra
     - name: DOWNLOAD_CLIENT_WINDOWS
       desc: URL to download oc client for Windows
-      value: "https://github.com/openshift/origin/releases/download/v3.9.0-alpha.3/openshift-origin-client-tools-v3.9.0-alpha.3-78ddc10-windows.zip"
+      value: "https://github.com/openshift/origin/releases/download/v3.6.1/openshift-origin-client-tools-v3.6.1-008f2d5-windows.zip"
     - name: DOWNLOAD_CLIENT_MAC
       desc: URL to download oc client for macOS
-      value: "https://github.com/openshift/origin/releases/download/v3.9.0-alpha.3/openshift-origin-client-tools-v3.9.0-alpha.3-78ddc10-mac.zip"
+      value: "https://github.com/openshift/origin/releases/download/v3.6.1/openshift-origin-client-tools-v3.6.1-008f2d5-mac.zip"
     - name: DOWNLOAD_CLIENT_LIN64
       desc: URL to download oc client for 64bit Linux
-      value: "https://github.com/openshift/origin/releases/download/v3.9.0-alpha.3/openshift-origin-client-tools-v3.9.0-alpha.3-78ddc10-linux-64bit.tar.gz"
+      value: "https://github.com/openshift/origin/releases/download/v3.6.1/openshift-origin-client-tools-v3.6.1-008f2d5-linux-64bit.tar.gz"
     - name: OC_VERSION
       desc: Expected oc version when `oc version` is executed
-      value: "oc v3.9.0-alpha.3+78ddc10 \ kubernetes v1.9.1+a0ce1bc657"
+      value: "v3.6.1+008f2d5 \ kubernetes v1.6.1+5115d708d7"
     - name: DOCS_URL
       desc: URL prefix to access docs (https://docs.openshift.org/latest)
       value: <url>
