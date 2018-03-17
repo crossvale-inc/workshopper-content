@@ -139,7 +139,7 @@ list of projects on the right side that your user has permission to work with. Y
 
 image::explore-webconsole1.png[Web Console]
 
-Click on the *{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}* project. When you click on the
+Click on the *{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}* project (top right). When you click on the
 *{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}* project, you will be taken to the project overview page
 which will list all of the routes, services, deployments, and pods that you have
 running as part of your project. There's nothing there now, but that's about to
