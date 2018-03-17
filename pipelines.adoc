@@ -57,6 +57,8 @@ You can customize the Jenkins properties such as service name, admin password, m
 allocation, etc through the parameters in the web console. We can leave all of
 the default values, so just click on *Create* to deploy Jenkins.
 
+You can ignore any warning about granting permissions to your project.
+
 OpenShift deploys a Jenkins pod and also creates a service and route for the
 deployed container.
 
