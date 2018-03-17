@@ -78,7 +78,7 @@ insufficient.
 Fortunately, OpenShift provides an optional system for log aggregation that uses
 Fluentd, Elasticsearch, and Kibana (EFK).
 
-In the OpenShift web console on the *Pod*'s logs page, at the right you will see
+In the OpenShift web console on the *Pod*'s logs page, at the top right you will see
 a "View Archive" link. Go ahead and click it. You will need to accept the SSL
 certificate.
 
