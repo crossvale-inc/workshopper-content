@@ -133,9 +133,9 @@ You should see the following (or something similar):
 {{OC_VERSION}}
 ----
 
-At this point, oc version will return an ip error because you have not logged in yet. Later, when you oc login and do the version command again it will not give this error.
+At this point, oc version may return an ip error because you have not logged in yet. Later, when you oc login and do the version command again it will not give this error.
 
 If you get a different error message, you may not have updated your path correctly.  If you
 need help, raise your hand and the instructor will assist.
 
-WARNING: Openshift Client versions need to match the Openshift Server you're running. In this lab we are using Openshift version 3.7
+WARNING: Earlier versions of the Openshift Client will not work with this lab.
