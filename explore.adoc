@@ -108,7 +108,6 @@ You will see the following confirmation message:
 ----
 Now using project "{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}" on server "https://{{CONSOLE_ADDRESS}}".
 ----
-
 or
 
 [source]
