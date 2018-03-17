@@ -31,9 +31,7 @@ corporate-standard CA that you already have installed on your system.
 
 [NOTE]
 ====
-On some versions of Microsoft Windows, you may get an error that the
-server has an invalid x.509 certificate.  If you receive this error, enter in
-the following command:
+Alternatively, you may use the following command to skip TLS verification:
 
 [source]
 ----
