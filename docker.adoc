@@ -62,7 +62,7 @@ related.
 
 In OpenShift, the smallest deployable unit is a *Pod*. A *Pod* is a group of one or
 more Docker containers deployed together and guaranteed to be on the same host.
-From the doc:
+From the documentation:
 
 [source]
 ----
@@ -141,7 +141,7 @@ urceVersion":"36222"}}
 ----
 
 The web interface also shows a lot of the same information on the *Pod* details
-page. If you click in the *Pod* circle, and then click the *Pod* name, you will
+page. If you click in the *Pod* circle, in the project Overview, you will
 find the details page. You can also get there by clicking "Applications", then
 "Pods", at the left, and then clicking the *Pod* name.
 
