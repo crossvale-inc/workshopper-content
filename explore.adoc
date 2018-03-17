@@ -92,10 +92,9 @@ You will see the following confirmation message (unless the project has already 
 [source]
 ----
 Now using project "{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}" on server "https://{{CONSOLE_ADDRESS}}".
-----
+
 or
-[source]
-----
+
 Already on project "{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}" on server "https://{{CONSOLE_ADDRESS}}".
 ----
 {% else %}
