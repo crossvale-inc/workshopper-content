@@ -93,6 +93,11 @@ You will see the following confirmation message (unless the project has already 
 ----
 Now using project "{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}" on server "https://{{CONSOLE_ADDRESS}}".
 ----
+or
+[source]
+----
+Already on project "{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}" on server "https://{{CONSOLE_ADDRESS}}".
+----
 {% else %}
 The first thing we want to do is switch to the *{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}* project. You
 can do this with the following command:
