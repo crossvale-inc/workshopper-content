@@ -76,10 +76,10 @@ You can see that some of the fields say *"generated if empty"*. This is a
 feature of *Templates* in OpenShift that will be covered in the next lab. For
 now, be sure to use the following values in their respective fields:
 
-* `MONGODB_USER` : `mongodb`
-* `MONGODB_PASSWORD` : `mongodb`
-* `MONGODB_DATABASE`: `mongodb`
-* `MONGODB_ADMIN_PASSWORD` : `mongodb`
+* MongoDB Connection Username : `mongodb`
+* MongoDB Connection Password : `mongodb`
+* MongoDB Database Name : `mongodb`
+* MongoDB Admin Password : `mongodb`
 
 You can leave the rest of the values as their defaults, and then click
 *"Create"*. Then click *Continue to overview*. The MongoDB instance should
