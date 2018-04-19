@@ -116,13 +116,13 @@ changes in the *Dev* deployment without interfering with the live application.
 First you need to create a new MongoDB deployment for the *Live* environment. In the
 web console in your `{{EXPLORE_PROJECT_NAME}}{{USER_SUFFIX}}` project,  click the *Add to
 Project* button, and then find the `mongodb-ephemeral` template, and click it.
-Use the following values in their respective fields:
+Use the following values in their respective fields (be particularly careful to change the Database Service Name and MongoDB Database Name since they default to "mongodb" and "sampledb" respectively):
 
 * Database Service Name : `mongodb-live`
 * MongoDB Connection Username : `mongodb`
 * MongoDB Connection Password : `mongodb`
-* MongoDB Database Name: `mongodb`
-* MongoB Admin Password : `mongodb`
+* MongoDB Database Name : `mongodb`
+* MongoDB Admin Password : `mongodb`
 
 You can leave the rest of the values as their defaults, and then click
 *Create*. Then click *Continue to overview*. The MongoDB instance should
