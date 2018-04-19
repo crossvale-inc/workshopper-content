@@ -74,7 +74,7 @@ image::ocp-mongo-template-deploy.png[MongoDB]
 
 You can see that some of the fields say *"generated if empty"*. This is a
 feature of *Templates* in OpenShift that will be covered in the next lab. For
-now, be sure to use the following values in their respective fields:
+now, be sure to use the following values in their respective fields (be particularly careful to change the Database Name since it defaults to "sampledb"):
 
 * MongoDB Connection Username : `mongodb`
 * MongoDB Connection Password : `mongodb`
